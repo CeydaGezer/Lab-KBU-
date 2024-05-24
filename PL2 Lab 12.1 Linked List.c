@@ -16,7 +16,7 @@ struct student {
 };
 
 typedef struct student node;
-node *head = NULL; // Global head tan˝mlan˝yor
+node *head = NULL; // Global head tan√Ωmlan√Ωyor
 
 node* createList() {
     int i,n;
@@ -112,9 +112,9 @@ void selectionSort() {
         ptr2=ptr1->next;
 
         while (ptr2!= NULL) {
-            // ÷renci numaralar˝ kar˛˝la˛t˝r˝l˝r
-            if (ptr1->num < ptr2->num) { // Burada ters s˝ralama yapmak iÁin i˛aretÁilerin yeri dei˛tirilir
-                // ÷renci bilgileri geÁici bir dei˛kene kopyalan˝r
+            // √ñ√∞renci numaralar√Ω kar√æ√Ωla√æt√Ωr√Ωl√Ωr
+            if (ptr1->num < ptr2->num) { // Burada ters s√Ωralama yapmak i√ßin i√æaret√ßilerin yeri de√∞i√ætirilir
+                // √ñ√∞renci bilgileri ge√ßici bir de√∞i√ækene kopyalan√Ωr
                 temp = *ptr1;
                 *ptr1 = *ptr2;
                 *ptr2 = temp;
